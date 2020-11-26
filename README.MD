@@ -22,3 +22,15 @@
 - bin: Binary number value, example `bin(5)` => `0b101`
 
 ### [Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
+
+### List Unpacking
+
+```python
+a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(a) => 1
+print(b) => 2
+print(c) => 3
+print(other) => [4, 5, 6, 7, 8]
+print(d) => 9
+```
