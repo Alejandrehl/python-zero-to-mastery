@@ -15,7 +15,10 @@
 
 ### Specialized Data Types
 
-### Math functions
+### [Math functions](https://www.programiz.com/python-programming/modules/math)
 
-- Round: Round float number to up, example `print(3.9)` => `4`
-- ABS: Absolute number value, example `abs(-20)` => `20`
+- round: Round float number to up, example `round(3.9)` => `4`
+- abs: Absolute number value, example `abs(-20)` => `20`
+- bin: Binary number value, example `bin(5)` => `0b101`
+
+### [Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
