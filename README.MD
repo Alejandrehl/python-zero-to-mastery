@@ -46,4 +46,25 @@ dictionary = {
 }
 
 print(dictionary['b']) => 2
+
+dictionary2 = {
+    'a': [1, 2, 3],
+    'b': 'Hello',
+    'c': True
+}
+
+dictionary_list = [
+    {
+        'a': [1, 2, 3],
+        'b': 'Hello',
+        'c': True
+    },
+    {
+        'a': [1, 2, 3],
+        'b': 'Bye',
+        'c': False
+    },
+]
+
+print(dictionary_list[0]['a']) => [1, 2, 3]
 ```
