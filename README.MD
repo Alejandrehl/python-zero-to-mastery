@@ -34,3 +34,16 @@ print(c) => 3
 print(other) => [4, 5, 6, 7, 8]
 print(d) => 9
 ```
+
+### Dictionary
+
+Un diccionario es como un objeto de javascript pero se accede al valor de su key como una lista.
+
+```python
+dictionary = {
+    'a': 1,
+    'b': 2
+}
+
+print(dictionary['b']) => 2
+```
